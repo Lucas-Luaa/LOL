@@ -439,7 +439,7 @@ local ClosureBindings = {
 			WindowFrame = nil,
 			Unloaded = false,
 
-			Theme = "Normal Theme",
+			Theme = "Lua Theme",
 			DialogOpen = false,
 			UseAcrylic = false,
 			Acrylic = false,
@@ -6222,7 +6222,7 @@ local ClosureBindings = {
     [54] = function()
         local maui, script, require, getfenv, setfenv = ImportGlobals(54)
         return {
-            Name = "Normal Theme",
+            Name = "Lua Theme",
             Accent = Color3.fromRGB(0, 122, 255),
     
             AcrylicMain = Color3.fromRGB(20, 20, 20),
